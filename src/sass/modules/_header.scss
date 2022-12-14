@@ -4,5 +4,20 @@ nav{
 
 }
 .minidiv{
-    display:flex
+    display:flex;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-link:hover{
+    color: $orange !important;
+}
+nav{
+    .row{
+        align-items: center;
+    }
+    .col{
+        align-items: center;
+        height: 60px;
+    }
 }

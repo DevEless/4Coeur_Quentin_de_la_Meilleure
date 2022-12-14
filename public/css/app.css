@@ -22260,3 +22260,19 @@ nav {
 .minidiv {
   display: flex;
 }
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: #fd7e14 !important;
+}
+
+nav .row {
+  align-items: center;
+}
+nav .col {
+  align-items: center;
+  height: 60px;
+}
