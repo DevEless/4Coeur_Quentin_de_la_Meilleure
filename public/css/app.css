@@ -22459,8 +22459,20 @@ nav .col {
 .SQ4 .col {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+}
+.SQ4 .col .deux {
+  display: flex;
+  justify-content: flex-end;
   flex-direction: column;
   align-items: flex-end;
+}
+.SQ4 .S4T {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 8%;
+  flex-direction: column;
 }
 
 .cart {

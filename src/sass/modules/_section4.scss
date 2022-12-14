@@ -14,8 +14,19 @@
     .col{
         display: flex;
         justify-content: flex-end;
-        flex-direction: column;
+        align-items: center;
+    }
+    .col .deux {
+        display: flex;
+        justify-content:flex-end;
+        flex-direction:column;
         align-items: flex-end;
     }
-
+    .S4T{
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 8%;
+        flex-direction: column;
+    }
 }
