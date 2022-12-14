@@ -22516,6 +22516,16 @@ nav .col {
   z-index: 0;
 }
 
+.SQ6 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.SQ6 .container.titre {
+  width: 28%;
+}
+
 .cart {
   margin: 20px;
   padding: 3px;
