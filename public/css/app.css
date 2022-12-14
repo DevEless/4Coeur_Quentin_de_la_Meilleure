@@ -22483,6 +22483,14 @@ nav .col {
   margin-top: 5%;
 }
 
+.SQ5 {
+  margin-top: 10%;
+}
+.SQ5 .i {
+  border-radius: 50%;
+  border: 10px solid orange;
+}
+
 .cart {
   margin: 20px;
   padding: 3px;
