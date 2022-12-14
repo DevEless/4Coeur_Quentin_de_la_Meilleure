@@ -22401,7 +22401,7 @@ nav .col {
 .SQ2 .cart {
   height: 250px;
   width: 250px;
-  background-color: rgba(255, 166, 0, 0.336);
+  background-color: rgba(255, 166, 0, 0.205);
   margin: 2%;
   display: flex;
   align-items: center;
@@ -22411,4 +22411,20 @@ nav .col {
 }
 .SQ2 .cart p {
   margin-top: 5%;
+}
+
+.cart {
+  margin: 20px;
+  padding: 3px;
+  outline: 2px solid #DDD;
+  border: #a1a1a1;
+  float: left;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
+}
+
+.cart:hover {
+  cursor: pointer;
+  margin-top: 5px;
 }
