@@ -22281,3 +22281,38 @@ nav .col {
   padding: 18%;
   height: 100vh;
 }
+
+.SQ2 {
+  height: 600px;
+}
+.SQ2 .container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: solid orange 1px;
+  height: 80px;
+}
+
+.collapse {
+  visibility: hidden;
+}
+
+.collapse.show {
+  visibility: visible;
+  display: block;
+}
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition-property: height, visibility;
+  transition-duration: 0.35s;
+  transition-timing-function: ease;
+}
+
+.collapsing.width {
+  transition-property: width, visibility;
+  width: 0;
+  height: auto;
+}
