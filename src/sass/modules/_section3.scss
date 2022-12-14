@@ -1,17 +1,18 @@
 .SQ3{
-    .col{
-        position: absolute;
+
+    margin-top: 5%;
+    .col.deux{
         height: 600px;
     }
     .img{
-        height: 390px;
+        height: 340px;
         position: relative;
         z-index: 1;
     }
     .img2{
         position: relative;
-        left: 18%;
-        height: 390px;
+        left: 45%;
+        height: 340px;
         top: -80%;
         z-index: 1;
         
