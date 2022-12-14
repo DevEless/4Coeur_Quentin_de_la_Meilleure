@@ -22276,3 +22276,7 @@ nav .col {
   align-items: center;
   height: 60px;
 }
+
+.txt {
+  font-size: 200%;
+}
