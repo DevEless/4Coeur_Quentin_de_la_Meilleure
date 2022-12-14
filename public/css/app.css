@@ -22451,21 +22451,21 @@ nav .col {
   width: 70%;
   background-color: rgb(255, 233, 191);
 }
-.SQ4 .container {
+.SQ4 .container.deux {
   width: 95%;
   height: 20%;
   background-color: orange;
 }
+.SQ4 .cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .SQ4 .col {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
-}
-.SQ4 .col .deux {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
   align-items: flex-end;
+  flex-direction: column;
 }
 .SQ4 .S4T {
   display: flex;
