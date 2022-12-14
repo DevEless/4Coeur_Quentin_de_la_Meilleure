@@ -6,24 +6,3 @@
 
 // BOOTSTRAP --------------------------------------------------------- //
 
-//* Création de Spacer 
-$spacer : 5px;
-
-$spacers : map-merge($spacers, (
-    0 : 0px ,
-    1 : $spacer*1 ,
-    2 : $spacer*2 ,
-    3 : $spacer*3 ,
-    4 : $spacer*4 ,
-    5 : $spacer*5 ,
-    6 : $spacer*8 ,
-    7 : $spacer*10 ,
-));
-
-$couleur-perso : (
-    "orange" : rgba(234,166,54,255),
-    "orange2" : rgba(234,166,50,255),
-    "rose"   : #df46c8,
-);
-
-$theme-colors : map-merge($theme-colors , $couleur-perso);
