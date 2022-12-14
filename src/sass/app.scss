@@ -12,3 +12,4 @@ $fa-font-path : "../../node_modules/@fortawesome/fontawesome-free/webfonts";
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 // Tout les modules apparaissent après bootstrap ou n'importe quel autre framework.
 // Modules
+@import "./modules/header"

@@ -22252,3 +22252,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+nav {
+  height: 60px;
+  width: 100%;
+}
