@@ -22442,6 +22442,21 @@ nav .col {
   z-index: 0;
 }
 
+.SQ4 {
+  display: flex;
+  justify-content: center;
+}
+.SQ4 .DS4 {
+  height: 800px;
+  width: 70%;
+  background-color: rgb(255, 233, 191);
+}
+.SQ4 .container {
+  width: 95%;
+  height: 20%;
+  background-color: orange;
+}
+
 .cart {
   margin: 20px;
   padding: 3px;
