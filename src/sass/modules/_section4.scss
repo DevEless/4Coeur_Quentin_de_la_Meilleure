@@ -2,7 +2,7 @@
     display:flex;
     justify-content: center;
     .DS4{
-        height: 800px;
+        height: 1000px;
         width: 70%;
         background-color: rgb(255, 233, 191);
     }
@@ -29,5 +29,13 @@
         text-align: center;
         margin-top: 8%;
         flex-direction: column;
+    }
+    .pp{
+        border: 1px orange solid;
+        width: 100%;
+        border-radius:30% ;
+    }
+    .row.row-cols-1.row-cols-md-3.g-4{
+        margin-top: 5%;
     }
 }
