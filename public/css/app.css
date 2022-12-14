@@ -22456,6 +22456,12 @@ nav .col {
   height: 20%;
   background-color: orange;
 }
+.SQ4 .col {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+}
 
 .cart {
   margin: 20px;
