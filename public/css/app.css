@@ -10466,7 +10466,7 @@ readers do not read off random characters that represent icons */
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-orange: rgb(207, 130, 22);
+  --bs-orange: rgb(234, 166, 54);
   --bs-rose: #df46c8;
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
@@ -10476,7 +10476,7 @@ readers do not read off random characters that represent icons */
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
-  --bs-orange-rgb: 207, 130, 22;
+  --bs-orange-rgb: 234, 166, 54;
   --bs-rose-rgb: 223, 70, 200;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
@@ -13566,19 +13566,19 @@ textarea.form-control-lg {
 
 .btn-orange {
   --bs-btn-color: #000;
-  --bs-btn-bg: rgb(207, 130, 22);
-  --bs-btn-border-color: rgb(207, 130, 22);
+  --bs-btn-bg: rgb(234, 166, 54);
+  --bs-btn-border-color: rgb(234, 166, 54);
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #d69539;
-  --bs-btn-hover-border-color: #d48f2d;
-  --bs-btn-focus-shadow-rgb: 176, 111, 19;
+  --bs-btn-hover-bg: #edb354;
+  --bs-btn-hover-border-color: #ecaf4a;
+  --bs-btn-focus-shadow-rgb: 199, 141, 46;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #d99b45;
-  --bs-btn-active-border-color: #d48f2d;
+  --bs-btn-active-bg: #eeb85e;
+  --bs-btn-active-border-color: #ecaf4a;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: rgb(207, 130, 22);
-  --bs-btn-disabled-border-color: rgb(207, 130, 22);
+  --bs-btn-disabled-bg: rgb(234, 166, 54);
+  --bs-btn-disabled-border-color: rgb(234, 166, 54);
 }
 
 .btn-rose {
@@ -13735,19 +13735,19 @@ textarea.form-control-lg {
 }
 
 .btn-outline-orange {
-  --bs-btn-color: rgb(207, 130, 22);
-  --bs-btn-border-color: rgb(207, 130, 22);
+  --bs-btn-color: rgb(234, 166, 54);
+  --bs-btn-border-color: rgb(234, 166, 54);
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: rgb(207, 130, 22);
-  --bs-btn-hover-border-color: rgb(207, 130, 22);
-  --bs-btn-focus-shadow-rgb: 207, 130, 22;
+  --bs-btn-hover-bg: rgb(234, 166, 54);
+  --bs-btn-hover-border-color: rgb(234, 166, 54);
+  --bs-btn-focus-shadow-rgb: 234, 166, 54;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: rgb(207, 130, 22);
-  --bs-btn-active-border-color: rgb(207, 130, 22);
+  --bs-btn-active-bg: rgb(234, 166, 54);
+  --bs-btn-active-border-color: rgb(234, 166, 54);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: rgb(207, 130, 22);
+  --bs-btn-disabled-color: rgb(234, 166, 54);
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: rgb(207, 130, 22);
+  --bs-btn-disabled-border-color: rgb(234, 166, 54);
   --bs-gradient: none;
 }
 
@@ -15381,12 +15381,12 @@ textarea.form-control-lg {
 }
 
 .alert-orange {
-  --bs-alert-color: #7c4e0d;
-  --bs-alert-bg: #f5e6d0;
-  --bs-alert-border-color: #f1dab9;
+  --bs-alert-color: #8c6420;
+  --bs-alert-bg: #fbedd7;
+  --bs-alert-border-color: #f9e4c3;
 }
 .alert-orange .alert-link {
-  color: #633e0a;
+  color: #70501a;
 }
 
 .alert-rose {
@@ -15811,17 +15811,17 @@ textarea.form-control-lg {
 }
 
 .list-group-item-orange {
-  color: #7c4e0d;
-  background-color: #f5e6d0;
+  color: #8c6420;
+  background-color: #fbedd7;
 }
 .list-group-item-orange.list-group-item-action:hover, .list-group-item-orange.list-group-item-action:focus {
-  color: #7c4e0d;
-  background-color: #ddcfbb;
+  color: #8c6420;
+  background-color: #e2d5c2;
 }
 .list-group-item-orange.list-group-item-action.active {
   color: #fff;
-  background-color: #7c4e0d;
-  border-color: #7c4e0d;
+  background-color: #8c6420;
+  border-color: #8c6420;
 }
 
 .list-group-item-rose {
@@ -17437,7 +17437,7 @@ textarea.form-control-lg {
 
 .text-bg-orange {
   color: #000 !important;
-  background-color: RGBA(207, 130, 22, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(234, 166, 54, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-rose {
@@ -17502,10 +17502,10 @@ textarea.form-control-lg {
 }
 
 .link-orange {
-  color: rgb(207, 130, 22) !important;
+  color: rgb(234, 166, 54) !important;
 }
 .link-orange:hover, .link-orange:focus {
-  color: #d99b45 !important;
+  color: #eeb85e !important;
 }
 
 .link-rose {
@@ -22253,6 +22253,10 @@ textarea.form-control-lg {
   }
 }
 nav {
-  height: 60px;
+  height: 75px;
   width: 100%;
+}
+
+.minidiv {
+  display: flex;
 }
