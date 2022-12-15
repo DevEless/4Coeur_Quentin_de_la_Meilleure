@@ -22664,7 +22664,7 @@ nav .col {
   width: 130px;
   border-radius: 50%;
   padding: 3px;
-  background: #FF676D;
+  background: orange;
   margin-bottom: 14px;
 }
 .SQ7 .card .content .img img {
@@ -22681,7 +22681,7 @@ nav .col {
 }
 .SQ7 .card .content .job {
   font-size: 20px;
-  color: #FF676D;
+  color: orange;
 }
 .SQ7 .card .content .media-icons {
   margin-top: 10px;
@@ -22697,13 +22697,13 @@ nav .col {
   color: #FFF;
   border-radius: 50%;
   border: 2px solid transparent;
-  background: #FF676D;
+  background: orange;
   transition: all 0.3s ease;
 }
 .SQ7 .media-icons a:hover {
-  color: #FF676D;
+  color: orange;
   background-color: #fff;
-  border-color: #FF676D;
+  border-color: orange;
 }
 .SQ7 .container .button {
   width: 100%;

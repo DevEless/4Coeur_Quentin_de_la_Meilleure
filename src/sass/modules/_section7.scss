@@ -149,7 +149,7 @@
         width: 130px;
         border-radius: 50%;
         padding: 3px;
-        background: #FF676D;
+        background: orange;
         margin-bottom: 14px;
     }
 
@@ -168,7 +168,7 @@
 
     .card .content .job {
         font-size: 20px;
-        color: #FF676D;
+        color: orange;
     }
 
     .card .content .media-icons {
@@ -187,14 +187,14 @@
         color: #FFF;
         border-radius: 50%;
         border: 2px solid transparent;
-        background: #FF676D;
+        background: orange;
         transition: all 0.3s ease;
     }
 
     .media-icons a:hover {
-        color: #FF676D;
+        color: orange;
         background-color: #fff;
-        border-color: #FF676D;
+        border-color: orange;
     }
 
     .container .button {
@@ -251,5 +251,6 @@
             width: 100%;
         }
     }
+
 
 }
