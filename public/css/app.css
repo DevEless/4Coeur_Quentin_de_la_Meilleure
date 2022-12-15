@@ -22778,6 +22778,15 @@ footer p:hover {
 footer a {
   text-decoration: none;
 }
+footer .media-icons a {
+  text-align: center;
+  height: 55px;
+  font-size: 12px;
+  color: #FFF;
+  border-radius: 50%;
+  border: 15px solid transparent;
+  background: black;
+}
 
 .cart {
   margin: 20px;
@@ -22812,7 +22821,7 @@ footer a {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(102, 72, 11, 0.712);
+  background: rgba(77, 51, 0, 0.521);
   transform: scaleY(0);
   transform-origin: 50% 0;
   transition-property: transform;
