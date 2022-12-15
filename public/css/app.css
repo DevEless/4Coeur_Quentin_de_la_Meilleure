@@ -22639,7 +22639,7 @@ nav .col {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgb(255, 116, 0);
+  background: rgb(234, 166, 54);
   transform: scaleY(0);
   transform-origin: 50% 100%;
   transition-property: transform;
@@ -22649,7 +22649,7 @@ nav .col {
           animation-delay: 1s;
 }
 .SQ6 .card-body:hover,
-.SQ6 .crd-body:focus,
+.SQ6 .card-body:focus,
 .SQ6 .card-body:active {
   color: white;
   -webkit-animation-delay: 1s;

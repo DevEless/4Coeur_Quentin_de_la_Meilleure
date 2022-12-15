@@ -140,7 +140,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background: rgba(255,116,0,255);
+        background: rgba(234,166,54,255);
         -webkit-transform: scaleY(0);
         transform: scaleY(0);
         -webkit-transform-origin: 50% 100%;
@@ -155,7 +155,7 @@
     }
 
     .card-body:hover,
-    .crd-body:focus,
+    .card-body:focus,
     .card-body:active {
         color: white;
         animation-delay: 1s;
