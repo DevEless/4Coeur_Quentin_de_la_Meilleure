@@ -1,0 +1,57 @@
+.SQ7{
+    display:flex;
+    justify-content: center;
+    .DS4{
+        height: 600px;
+        width: 70%;
+        background-color: rgb(255, 233, 191);
+    }
+    .container.deux{
+        width:95%;
+        height:35%;
+        background-color: orange;
+        display: grid;
+    }
+    .cont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .col{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .S4T{
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 8%;
+        flex-direction: column;
+    }
+    .pp{
+        border: 1px orange solid;
+        width: 100%;
+        border-radius:30% ;
+    }
+    .row.row-cols-1.row-cols-md-3.g-4{
+        margin-top: 5%;
+    }
+    .signin{
+        background-color: orange;
+        color: grey;
+        border: none;
+        border-radius: 5%;
+    }
+    .d-flex{
+        border: 1px solid white;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 3%;
+        height: 25%;
+    }
+}
