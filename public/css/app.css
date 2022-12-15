@@ -22532,6 +22532,7 @@ nav .col {
 .SQ7 {
   display: flex;
   justify-content: center;
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 }
 .SQ7 .DS4 {
   height: 600px;
@@ -22584,6 +22585,170 @@ nav .col {
   justify-content: space-between;
   border-radius: 3%;
   height: 25%;
+}
+.SQ7 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.SQ7 body {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: #f2f2f2;
+  position: relative;
+}
+.SQ7 body::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background: #FF676D;
+  -webkit-clip-path: inset(47% 0 0 0);
+          clip-path: inset(47% 0 0 0);
+  z-index: -1;
+  height: 100%;
+}
+.SQ7 ::-moz-selection {
+  background: #FF676D;
+  color: #fff;
+}
+.SQ7 ::selection {
+  background: #FF676D;
+  color: #fff;
+}
+.SQ7 .container {
+  max-width: 950px;
+  width: 100%;
+  overflow: hidden;
+  padding: 80px 0;
+}
+.SQ7 .container .main-card {
+  display: flex;
+  justify-content: space-evenly;
+  width: 200%;
+  transition: 1s;
+}
+.SQ7 #two:checked ~ .main-card {
+  margin-left: -100%;
+}
+.SQ7 .container .main-card .cards {
+  width: calc(50% - 10px);
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 20px;
+  justify-content: space-between;
+}
+.SQ7 .main-card .cards .card {
+  width: calc(33.3333333333% - 10px);
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.4s ease;
+}
+.SQ7 .main-card .cards .card:hover {
+  transform: translateY(-15px);
+}
+.SQ7 .cards .card .content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.SQ7 .cards .card .content .img {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  padding: 3px;
+  background: #FF676D;
+  margin-bottom: 14px;
+}
+.SQ7 .card .content .img img {
+  height: 100%;
+  width: 100%;
+  border: 3px solid white;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.SQ7 .card .content .name {
+  font-size: 20px;
+  font-weight: 500;
+}
+.SQ7 .card .content .job {
+  font-size: 20px;
+  color: #FF676D;
+}
+.SQ7 .card .content .media-icons {
+  margin-top: 10px;
+  display: flex;
+}
+.SQ7 .media-icons a {
+  text-align: center;
+  line-height: 33px;
+  height: 35px;
+  width: 35px;
+  margin: 0 4px;
+  font-size: 14px;
+  color: #FFF;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  background: #FF676D;
+  transition: all 0.3s ease;
+}
+.SQ7 .media-icons a:hover {
+  color: #FF676D;
+  background-color: #fff;
+  border-color: #FF676D;
+}
+.SQ7 .container .button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.SQ7 .button label {
+  height: 15px;
+  width: 15px;
+  border-radius: 20px;
+  background: #fff;
+  margin: 0 4px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.SQ7 .button label.active {
+  width: 35px;
+}
+.SQ7 #one:checked ~ .button .one {
+  width: 35px;
+}
+.SQ7 #one:checked ~ .button .two {
+  width: 15px;
+}
+.SQ7 #two:checked ~ .button .one {
+  width: 15px;
+}
+.SQ7 #two:checked ~ .button .two {
+  width: 35px;
+}
+.SQ7 input[type=radio] {
+  display: none;
+}
+@media (max-width: 768px) {
+  .SQ7 .main-card .cards .card {
+    margin: 20px 0 10px 0;
+    width: calc(50% - 10px);
+  }
+}
+@media (max-width: 600px) {
+  .SQ7 .main-card .cards .card {
+    /* margin: 20px 0 10px 0; */
+    width: 100%;
+  }
 }
 
 .cart {
