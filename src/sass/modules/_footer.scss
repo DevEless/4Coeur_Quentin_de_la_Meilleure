@@ -1,4 +1,5 @@
 footer{
+    margin-top:5%;
     .footer-galery {
         display: flex;
         img{
@@ -15,5 +16,12 @@ footer{
         border: 2px solid white;
         }
         gap: 15px;
+    }
+    p:hover{
+        color:orange;
+        font-size: 110%;
+    }
+    a{
+        text-decoration: none;
     }
 }

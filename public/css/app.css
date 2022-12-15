@@ -22751,6 +22751,9 @@ nav .col {
   }
 }
 
+footer {
+  margin-top: 5%;
+}
 footer .footer-galery {
   display: flex;
   gap: 15px;
@@ -22767,6 +22770,13 @@ footer .footer-galery2 img {
   height: 60px;
   margin-top: 15%;
   border: 2px solid white;
+}
+footer p:hover {
+  color: orange;
+  font-size: 110%;
+}
+footer a {
+  text-decoration: none;
 }
 
 .cart {
