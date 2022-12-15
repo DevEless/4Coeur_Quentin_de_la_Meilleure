@@ -1,5 +1,19 @@
 footer{
-    .footer-gallery {
-        
+    .footer-galery {
+        display: flex;
+        img{
+            height: 60px;
+            border: 2px solid white;
+        }
+        gap: 15px;
+    }
+    .footer-galery2 {
+        display: flex;
+        img{
+        height: 60px;
+        margin-top: 15%;
+        border: 2px solid white;
+        }
+        gap: 15px;
     }
 }

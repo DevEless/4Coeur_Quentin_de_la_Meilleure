@@ -22751,6 +22751,24 @@ nav .col {
   }
 }
 
+footer .footer-galery {
+  display: flex;
+  gap: 15px;
+}
+footer .footer-galery img {
+  height: 60px;
+  border: 2px solid white;
+}
+footer .footer-galery2 {
+  display: flex;
+  gap: 15px;
+}
+footer .footer-galery2 img {
+  height: 60px;
+  margin-top: 15%;
+  border: 2px solid white;
+}
+
 .cart {
   margin: 20px;
   padding: 3px;
