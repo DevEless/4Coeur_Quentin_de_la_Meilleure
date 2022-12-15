@@ -1,18 +1,18 @@
 .SQ7 {
     display: flex;
     justify-content: center;
+    margin-top: 5%;
 
     .DS4 {
-        height: 600px;
-        width: 70%;
+        height: auto;
+        width: 65%;
         background-color: rgb(255, 233, 191);
     }
 
-    .container.deux {
-        width: 95%;
-        height: 35%;
+    .container.deux{
+        width:95%;
+        height:20%;
         background-color: orange;
-        display: grid;
     }
 
     .cont {
@@ -59,8 +59,8 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        border-radius: 3%;
-        height: 25%;
+        border-radius: 8%;
+        height: 40%;
     }
 
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
@@ -92,7 +92,7 @@
     }
 
     ::selection {
-        background: #FF676D;
+        background: orange;
         color: #fff;
     }
 
