@@ -1,0 +1,14 @@
+.SC1{
+    background-color: grey;
+    height: 300px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    .h1{
+        font-size: 150%;
+    }
+    a:hover{
+        color: orange!important;
+    }
+}
