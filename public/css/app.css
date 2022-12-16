@@ -23059,12 +23059,20 @@ footer .media-icons a {
   }
   .SQ4 .DS4 {
     height: auto;
-    background-color: white;
+    width: auto;
   }
   .SQ4 .S4T {
     margin-top: 75%;
   }
   .SQ6 .col {
+    display: flex;
+    justify-content: center;
+  }
+  .SQ7 .DS4 {
+    width: 90%;
+  }
+  .SQ7 .container.deux {
+    height: auto;
     display: flex;
     justify-content: center;
   }
