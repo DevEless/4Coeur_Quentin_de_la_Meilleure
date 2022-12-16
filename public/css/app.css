@@ -22371,15 +22371,6 @@ nav .col {
 .SQ2 {
   height: 600px;
 }
-.SQ2 .container {
-  height: 130px;
-  width: 80%;
-  border: 2px solid orange;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 8%;
-}
 .SQ2 .home {
   height: 65%;
   width: 18%;
@@ -22411,6 +22402,39 @@ nav .col {
 }
 .SQ2 .cart p {
   margin-top: 5%;
+}
+.SQ2 body {
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+@media only screen and (max-width: 768px) {
+  .SQ2 .container {
+    margin-top: 66px;
+  }
+}
+.SQ2 .height {
+  height: 100vh;
+}
+.SQ2 .card {
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+}
+.SQ2 .card:hover {
+  background-color: #eee;
+}
+.SQ2 .ratings i {
+  color: orange;
+}
+.SQ2 .testimonial-list {
+  list-style: none;
+}
+.SQ2 .testimonial-list li {
+  margin-bottom: 20px;
+}
+.SQ2 .testimonials-margin {
+  margin-top: -19px;
 }
 
 .SQ3 {
