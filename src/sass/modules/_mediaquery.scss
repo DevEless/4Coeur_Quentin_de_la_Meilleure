@@ -1,0 +1,44 @@
+@media only screen and(max-width: 380px) { 
+
+    .card.p-3{
+        width: 65px !important;
+    }
+    .SQ2{
+        display:flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .container2{
+        display:flex;
+        flex-direction: column;
+    }
+    .col.deux{
+        img{
+            width: 45%;
+            height: 45%;
+        }
+    }
+    .vide{
+        opacity: 25%;
+    }
+    .SQ3{
+        display: flex;
+        flex-direction: column;
+    }
+    .SQ4{
+        height: auto;
+        .DS4{
+            height: auto;
+            background-color: white;
+        }
+    .S4T{
+        margin-top: 75%;
+    }
+    }
+    .SQ6{
+        .col{
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
