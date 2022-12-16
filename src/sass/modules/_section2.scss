@@ -39,6 +39,16 @@
     }
 
 
+}
+.SQ2Bis{
+    display: flex;
+}
+.accordion{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
     body {
         background-color: #fff;
@@ -93,4 +103,3 @@
 
         margin-top: -19px;
     }
-}
