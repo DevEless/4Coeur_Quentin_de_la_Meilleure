@@ -1,4 +1,8 @@
 @charset "UTF-8";
+@font-face {
+  font-family: play;
+  src: url("../../public/font/static/PlayfairDisplay-Bold.ttf");
+}
 /*!
  * Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -22370,6 +22374,10 @@ nav .dropdown:hover .dropdown-menu {
 .txt {
   padding: 18%;
   height: 100vh;
+}
+
+body {
+  font-family: play !important;
 }
 
 .SQ2 {
