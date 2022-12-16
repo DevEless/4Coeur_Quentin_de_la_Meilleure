@@ -22861,6 +22861,9 @@ footer .media-icons a {
   transition-duration: 0.3s;
 }
 .SQ4 .card:before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   content: "";
   position: absolute;
   z-index: -1;

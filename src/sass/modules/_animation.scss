@@ -30,7 +30,10 @@
     }
 
     .card:before {
-        content: "";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        content:"";
         position: absolute;
         z-index: -1;
         top: 0;
