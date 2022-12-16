@@ -22973,3 +22973,11 @@ footer .media-icons a {
 .SC2 .container {
   width: 80%;
 }
+.SC2 input {
+  height: 60px;
+  border-radius: 10px;
+  border-color: rgb(182, 180, 180);
+}
+.SC2 textarea {
+  border-radius: 10px;
+}

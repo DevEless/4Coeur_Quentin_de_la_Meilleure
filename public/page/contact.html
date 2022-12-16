@@ -82,7 +82,7 @@
             minutes <br>
             justcopy and paste the files add a little code and you're done
         </p>
-        <div class="container">
+        <div class="container" style="margin-top: 8%;">
 
             <div id="after_submit"></div>
             <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
@@ -90,27 +90,36 @@
                 <div class="col">
 
                     <label class="required" for="name">Your name:</label><br />
-                    <input id="name" class="input" name="name" type="text" value="" size="65" /><br />
+                    <input placeholder="Name" id="name" class="input" name="name" type="text" value="" size="65" /><br />
                     <span id="name_validation" class="error_message"></span>
                 </div>
                 <div class="col">
 
                     <label class="required" for="email">Your email:</label><br />
-                    <input id="email" class="input" name="email" type="text" value="" size="65" /><br />
+                    <input placeholder="Email" id="email" class="input" name="email" type="text" value="" size="65" /><br />
                     <span id="email_validation" class="error_message"></span>
                 </div>
                 </div>
             <div class="row">
+                <div class="col mt-3">
+
+                    <label class="required" for="email">Subject</label><br />
+                    <input placeholder="Subject" id="email" class="input" name="email" type="text" value="" size="135" /><br/>
+                    <span id="email_validation" class="error_message"></span>
+                </div>
             </div>
-            <div class="row">
+            <div class="row mt-5">
                 <label class="required" for="message">Your message:</label><br />
                 <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
                 <span id="message_validation" class="error_message"></span>
             </div>
-
+            <button type="button" class="btn bg-orange btn-lg rounded-5 text-white mt-2">Send a message</button>
             
         </form>
     </div>
+    </section>
+    <section class="SC3">
+
     </section>
     <main>
         
