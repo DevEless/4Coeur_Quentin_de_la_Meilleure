@@ -1,3 +1,5 @@
 .s404 {
-  height: 100rem;
+  height: 100vh;
+  background-color: grey;
+  width: 100vw;
 }
