@@ -20,4 +20,8 @@ nav{
         align-items: center;
         height: 60px;
     }
+    .dropdown:hover .dropdown-menu{
+        margin-top: 0%;
+        display: block;
+    }
 }

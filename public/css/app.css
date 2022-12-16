@@ -22362,6 +22362,10 @@ nav .col {
   align-items: center;
   height: 60px;
 }
+nav .dropdown:hover .dropdown-menu {
+  margin-top: 0%;
+  display: block;
+}
 
 .txt {
   padding: 18%;
