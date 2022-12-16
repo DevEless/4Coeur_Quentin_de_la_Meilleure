@@ -23031,6 +23031,9 @@ footer .media-icons a {
 }
 
 @media only screen and (max-width: 380px) {
+  body > header > nav > div > div {
+    opacity: 0%;
+  }
   .card.p-3 {
     width: 90% !important;
   }
@@ -23125,6 +23128,12 @@ footer .media-icons a {
   }
 }
 @media only screen and (max-width: 430px) {
+  #name {
+    width: 80%;
+  }
+  #email {
+    width: 80%;
+  }
   .card.p-3 {
     width: 90% !important;
   }
@@ -23222,6 +23231,12 @@ footer .media-icons a {
   }
 }
 @media only screen and (max-width: 770px) {
+  #name {
+    width: 80%;
+  }
+  #email {
+    width: 80%;
+  }
   .card.p-3 {
     width: 250px !important;
   }
