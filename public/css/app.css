@@ -22844,6 +22844,7 @@ footer .media-icons a {
 .cart:hover {
   cursor: pointer;
   margin-top: 5px;
+  background-color: white;
 }
 
 .SQ4 .card {
