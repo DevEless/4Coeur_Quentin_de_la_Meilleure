@@ -22981,3 +22981,9 @@ footer .media-icons a {
 .SC2 textarea {
   border-radius: 10px;
 }
+
+.SC3 {
+  justify-content: center;
+  display: flex;
+  margin-top: 8%;
+}
