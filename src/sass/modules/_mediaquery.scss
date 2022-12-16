@@ -345,5 +345,8 @@
         flex-direction: column;
         align-items: center;
     }
+    body > footer > section:nth-child(2) > div > div > div.col-md-3.col-lg-4.col-xl-3.mx-auto.mb-4 > div{
+        opacity: 0%;
+    }
 
 }
