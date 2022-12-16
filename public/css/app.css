@@ -23339,3 +23339,11 @@ footer .media-icons a {
     align-items: center;
   }
 }
+.s404 {
+  height: 100vh;
+  background-color: grey;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  font-size: 600%;
+}
