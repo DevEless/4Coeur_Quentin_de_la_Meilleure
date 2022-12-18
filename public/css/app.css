@@ -23142,6 +23142,12 @@ footer .media-icons a {
     display: flex;
     justify-content: center;
   }
+  .carousel-item {
+    background-size: cover !important;
+  }
+  body > main > section.SQ7 > div > div.container.deux > div > div:nth-child(2) > span {
+    height: 50px !important;
+  }
 }
 @media only screen and (max-width: 430px) {
   #name {
@@ -23149,6 +23155,9 @@ footer .media-icons a {
   }
   #email {
     width: 80%;
+  }
+  body > main > section.SQ4 > div > div {
+    height: 15% !important;
   }
   .card.p-3 {
     width: 90% !important;
@@ -23245,6 +23254,21 @@ footer .media-icons a {
   .SQ7 .col {
     height: 200px;
   }
+  body > header > nav > div > div {
+    opacity: 0%;
+  }
+  .carousel-item {
+    background-size: cover !important;
+  }
+  body > main > section.SQ4 > div > div {
+    height: 15% !important;
+  }
+  .SQ6 {
+    margin-top: 10px;
+  }
+  body > main > section.SQ7 > div > div.container.deux > div > div:nth-child(2) > span {
+    height: 50px !important;
+  }
 }
 @media only screen and (max-width: 770px) {
   #name {
@@ -23252,6 +23276,9 @@ footer .media-icons a {
   }
   #email {
     width: 80%;
+  }
+  body > main > section.SQ7 > div > div.container.deux > div > div:nth-child(2) > span {
+    height: 50px !important;
   }
   .card.p-3 {
     width: 250px !important;
@@ -23356,6 +23383,9 @@ footer .media-icons a {
   }
   body > footer > section:nth-child(2) > div > div > div.col-md-3.col-lg-4.col-xl-3.mx-auto.mb-4 > div {
     opacity: 0%;
+  }
+  .carousel-item {
+    background-size: cover !important;
   }
 }
 .s404 {
