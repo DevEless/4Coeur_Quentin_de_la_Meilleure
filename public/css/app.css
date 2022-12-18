@@ -23387,6 +23387,9 @@ footer .media-icons a {
   .carousel-item {
     background-size: cover !important;
   }
+  body > main > section.SQ4 > div > div {
+    height: 10% !important;
+  }
 }
 .s404 {
   height: 100vh;
